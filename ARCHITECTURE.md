@@ -34,7 +34,6 @@ graph TD;
     E --> F
     F -->|Sends Bill| Customer
 
-    %% Apply Styles for Better Readability
   style A fill:#FF8C00,stroke:#5A3D00,stroke-width:2px,color:#000;
   style B fill:#008080,stroke:#005F5F,stroke-width:3px,color:#FFF;
   style C fill:#FFD700,stroke:#B8860B,stroke-width:2px,color:#000;
