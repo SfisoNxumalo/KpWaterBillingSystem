@@ -19,3 +19,10 @@ The **KP Water Billing System** provides a streamlined digital approach:
 - **[Use Case Specifications](UseCaseSpecifications.md)**
 - **[Use Case Diagram](UseCase.md)**
 - **[Test Case](TestCaseDevelopment.md)**
+
+##### Agile Development
+- **[Agile Planning Document](AgilePlanningDocument.md)**
+- **[Sprint Planning](SprintPlanning.md)**
+- **[User Story](UserStory.md)**
+- **[Product Backlog](Backlog.md)**
+- **[Reflections](AgileReflection.md)**

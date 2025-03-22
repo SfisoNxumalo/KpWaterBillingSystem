@@ -1,4 +1,4 @@
-The KP Water Billing System **product backlog** is an ordered list of tasks, features, and improvements that the team will work on. The backlog helps the team focus on delivering value incrementally.
+The KP Water Billing System product backlog is an ordered list of tasks, features, and improvements that the team will work on. The backlog helps the team focus on delivering value incrementally.
 
 
 | Story ID | User Story | Priority (MoSCoW) | Effort Estimate | Dependencies | Justification |
