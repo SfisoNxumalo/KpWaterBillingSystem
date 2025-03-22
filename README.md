@@ -24,5 +24,5 @@ The **KP Water Billing System** provides a streamlined digital approach:
 - **[Agile Planning Document](AgilePlanningDocument.md)**
 - **[Sprint Planning](SprintPlanning.md)**
 - **[User Story](UserStory.md)**
-- **[Product Backlog](Backlog.md)**
+- **[Product Backlog](backlog.md)**
 - **[Reflections](AgileReflection.md)**
