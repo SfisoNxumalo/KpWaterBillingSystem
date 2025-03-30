@@ -26,3 +26,9 @@ The **KP Water Billing System** provides a streamlined digital approach:
 - **[User Story](UserStory.md)**
 - **[Product Backlog](backlog.md)**
 - **[Reflections](AgileReflection.md)**
+
+##### Kanban Board Implementation
+- **[Template Analysis and selection](template_analysis.md)**
+- **[Custom Kanban Board](CustomKanbanBoardCreation.md)**
+- **[Kanban Board Explanation](kanban_explanation.md)**
+- **[Reflections](kanban_reflection.md)**
