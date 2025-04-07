@@ -1,0 +1,11 @@
+### **Reflection (10 Marks)**
+
+While working on the object state and activity diagrams for the KP Water Billing System, I faced a few key challenges that helped me better understand system modeling.
+
+One major challenge was choosing the right level of detail  for both state transitions and activity steps. If the diagrams were too detailed, they became hard to read and cluttered. On the other hand, if I kept them too simple, they didn’t fully explain how the system should behave. I had to find a balance—focusing only on the most important states or actions that directly connect to functional requirements and user stories. For example, in the water reading flow, I kept states like "Reading Captured" and "Reading Verified," while leaving out minor internal system steps.
+
+Another challenge was aligning the diagrams with the Agile user stories and sprint tasks created in earlier assignments. In Agile, user stories are high-level descriptions of features from the user's point of view, while state and activity diagrams show more technical system behavior. I had to carefully map each diagram to the correct user story and make sure the transitions or workflows clearly reflected what the user wants to achieve. This helped me trace the logic behind each feature and improve the clarity of the design.
+
+When comparing state diagrams and activity diagrams, I found that both serve different but equally important purposes. State diagrams focus on how a single object behaves over time, showing changes in state depending on events (e.g., how a bill moves from "Pending" to "Paid"). In contrast, activity diagrams show the full process flow across multiple components or roles, including decision points and parallel actions (e.g., capturing a reading and sending a notification at the same time). I noticed that activity diagrams were more useful for understanding workflows from the user's perspective, while state diagrams gave better insight into how data and system objects behave in the background.
+
+In conclusion, this assignment helped me think critically about how to model system behavior clearly and effectively. It also reinforced the importance of connecting technical design work with user needs, Agile planning, and functional goals.

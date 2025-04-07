@@ -32,3 +32,9 @@ The **KP Water Billing System** provides a streamlined digital approach:
 - **[Custom Kanban Board](CustomKanbanBoardCreation.md)**
 - **[Kanban Board Explanation](kanban_explanation.md)**
 - **[Reflections](kanban_reflection.md)**
+
+##### Object State Modeling and Activity Workflow Modeling
+- **[Object State Modelling](ObjectStateModelling.md)**
+- **[Custom Kanban Board](CustomKanbanBoardCreation.md)**
+- **[Kanban Board Explanation](kanban_explanation.md)**
+- **[Reflections](kanban_reflection.md)**
