@@ -1,0 +1,5 @@
+C:\Users\Sifiso\source\repos\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.csproj.AssemblyReference.cache
+C:\Users\Sifiso\source\repos\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sifiso\source\repos\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.AssemblyInfoInputs.cache
+C:\Users\Sifiso\source\repos\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.AssemblyInfo.cs
+C:\Users\Sifiso\source\repos\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.csproj.CoreCompileInputs.cache

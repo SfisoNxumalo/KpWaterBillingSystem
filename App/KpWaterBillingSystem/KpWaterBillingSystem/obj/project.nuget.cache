@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2aiZoR9Swqo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sifiso\\KP Management System\\App\\KpWaterBillingSystem\\KpWaterBillingSystem\\KpWaterBillingSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sifiso\\.nuget\\packages\\nunit\\4.3.2\\nunit.4.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}
