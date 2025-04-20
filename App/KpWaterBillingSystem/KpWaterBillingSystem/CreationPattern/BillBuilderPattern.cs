@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using KpWaterBillingSystem.src.Model;
 
-namespace KpWaterBillingSystem.CreationPattern.srccc
+namespace KpWaterBillingSystem.CreationPattern
 {
     // IBillBuilderPattern.cs
     public interface IBillBuilderPattern

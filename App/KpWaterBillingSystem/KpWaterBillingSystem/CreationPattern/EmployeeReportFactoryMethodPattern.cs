@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using KpWaterBillingSystem.src.Interface;
 using KpWaterBillingSystem.src.Model;
 
-namespace KpWaterBillingSystem.CreationPattern.srccc
+namespace KpWaterBillingSystem.CreationPattern
 {
     public interface IReportFactoryMethodPattern
     {
