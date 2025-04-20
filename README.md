@@ -114,8 +114,5 @@ The KP Water Billing System automates the process of recording water meter readi
 
 - Integrate with a database using Entity Framework Core.  
 - Add a REST API layer with ASP.NET Core.  
-- Implement additional patterns (e.g., Observer for real‑time notifications).  
 
 ```
-
-This README explains the choice of C#, summarizes the major design decisions, and justifies the use of each creational pattern in clear, concise terms.
