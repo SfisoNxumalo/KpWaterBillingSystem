@@ -3,12 +3,6 @@ C:\Users\Sifiso\source\repos\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug
 C:\Users\Sifiso\source\repos\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.AssemblyInfoInputs.cache
 C:\Users\Sifiso\source\repos\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.AssemblyInfo.cs
 C:\Users\Sifiso\source\repos\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.csproj.CoreCompileInputs.cache
-C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.csproj.AssemblyReference.cache
-C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.AssemblyInfoInputs.cache
-C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.AssemblyInfo.cs
-C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.csproj.CoreCompileInputs.cache
-C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.sourcelink.json
 C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\bin\Debug\net8.0\KpWaterBillingSystem.exe
 C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\bin\Debug\net8.0\KpWaterBillingSystem.deps.json
 C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\bin\Debug\net8.0\KpWaterBillingSystem.runtimeconfig.json
@@ -16,6 +10,12 @@ C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSyst
 C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\bin\Debug\net8.0\KpWaterBillingSystem.pdb
 C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\bin\Debug\net8.0\nunit.framework.dll
 C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\bin\Debug\net8.0\nunit.framework.legacy.dll
+C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.csproj.AssemblyReference.cache
+C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.AssemblyInfoInputs.cache
+C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.AssemblyInfo.cs
+C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.csproj.CoreCompileInputs.cache
+C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.sourcelink.json
 C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterB.50367653.Up2Date
 C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\KpWaterBillingSystem.dll
 C:\Users\Sifiso\KP Management System\App\KpWaterBillingSystem\KpWaterBillingSystem\obj\Debug\net8.0\refint\KpWaterBillingSystem.dll

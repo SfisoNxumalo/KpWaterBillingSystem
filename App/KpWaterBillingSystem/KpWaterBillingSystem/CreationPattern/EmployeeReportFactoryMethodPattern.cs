@@ -13,13 +13,11 @@ namespace KpWaterBillingSystem.CreationPattern
         IReport CreateReport();
     }
 
-    // EmployeeReportFactoryMethodPattern.cs
     public class EmployeeReportFactoryMethodPattern : IReportFactoryMethodPattern
     {
         public IReport CreateReport() => new EmployeeReport();
     }
 
-    // CustomerReportFactoryMethodPattern.cs
     public class CustomerReportFactoryMethodPattern : IReportFactoryMethodPattern
     {
         public IReport CreateReport() => new CustomerReport();

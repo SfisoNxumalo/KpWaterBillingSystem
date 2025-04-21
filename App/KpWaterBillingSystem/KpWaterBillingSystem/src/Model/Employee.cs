@@ -7,21 +7,20 @@ using KpWaterBillingSystem.src.Interface;
 
 namespace KpWaterBillingSystem.src.Model
 {
-    // Employee.cs
     using System;
     using System.Collections.Generic;
 
     public class Employee : IUser, IEmployee
     {
-        // Attributes
+      
         public int EmployeeId { get; set; }
         public string FullName { get; set; }
         public string Email { get; set; }
 
-        // Relationship
+       
         public List<WaterReading> SubmittedReadings { get; set; }
 
-        // Constructor
+        
         public Employee(int employeeId, string fullName, string email)
         {
             EmployeeId = employeeId;
@@ -30,7 +29,7 @@ namespace KpWaterBillingSystem.src.Model
             SubmittedReadings = new List<WaterReading>();
         }
 
-        // IUser implementation
+    
         public string Name
         {
             get => FullName;
@@ -42,7 +41,6 @@ namespace KpWaterBillingSystem.src.Model
             Console.WriteLine($"Role: Employee, Name: {FullName}, Email: {Email}");
         }
 
-        // IEmployee implementation
         public void SubmitReading(WaterReading reading)
         {
             if (reading == null) throw new ArgumentNullException(nameof(reading));

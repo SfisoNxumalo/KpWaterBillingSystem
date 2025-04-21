@@ -7,7 +7,6 @@ using KpWaterBillingSystem.src.Model;
 
 namespace KpWaterBillingSystem.CreationPattern
 {
-    // BillingManagerSingletonPattern.cs
     public class BillingManagerSingletonPattern
     {
         private static BillingManagerSingletonPattern _instance;
@@ -17,7 +16,7 @@ namespace KpWaterBillingSystem.CreationPattern
 
         private BillingManagerSingletonPattern()
         {
-            RatePerUnit = 12.50m; // default rate
+            RatePerUnit = 12.50m;
         }
 
         public static BillingManagerSingletonPattern Instance

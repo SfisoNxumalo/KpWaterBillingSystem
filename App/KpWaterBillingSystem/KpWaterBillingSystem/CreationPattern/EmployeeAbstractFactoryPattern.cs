@@ -8,14 +8,12 @@ using KpWaterBillingSystem.src.Model;
 
 namespace KpWaterBillingSystem.CreationPattern
 {
-    // IUserReportAbstractFactoryPattern.cs
     public interface IUserReportAbstractFactoryPattern
     {
         IEmployee CreateUser(int id, string name, string address, string email);
         IReport CreateReport();
     }
 
-    // EmployeeAbstractFactoryPattern.cs
     public class EmployeeAbstractFactoryPattern : IUserReportAbstractFactoryPattern
     {
         public IUser CreateUser(int id, string name, string address, string email)
@@ -28,8 +26,6 @@ namespace KpWaterBillingSystem.CreationPattern
             throw new NotImplementedException();
         }
     }
-
-    // CustomerAbstractFactoryPattern.cs
     public class CustomerAbstractFactoryPattern : IUserReportAbstractFactoryPattern
     {
         public IEmployee CreateUser(int id, string name, string address, string email)

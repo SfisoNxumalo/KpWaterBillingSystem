@@ -16,7 +16,7 @@ namespace KpWaterBillingSystem.Tests
         [Test]
         public void CreateUser_ShouldReturnEmployee_WhenTypeIsEmployee()
         {
-            var user = UserSimpleFactoryPattern.CreateUser(
+            var user = new UserSimpleFactoryPattern().CreateUser(
                 UserType.Employee,
             id: 1,
             name: "Alice", 
@@ -30,7 +30,7 @@ namespace KpWaterBillingSystem.Tests
         [Test]
         public void CreateUser_ShouldReturnCustomer_WhenTypeIsCustomer()
         {
-            var user = UserSimpleFactoryPattern.CreateUser(
+            var user = new UserSimpleFactoryPattern().CreateUser(
                 UserType.Customer,
                 id: 2,
                 name: "Bob",

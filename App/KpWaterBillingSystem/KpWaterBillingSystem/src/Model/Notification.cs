@@ -8,18 +8,17 @@ namespace KpWaterBillingSystem.src.Model
 {
     public class Notification
     {
-        // Attributes
+
         public int NotificationId { get; set; }
         public int CustomerId { get; set; }
-        public int? BillId { get; set; }         // Optional link to a Bill
+        public int? BillId { get; set; }         
         public string Message { get; set; }
         public DateTime DateSent { get; set; }
 
-        // Relationships
-        public Customer Customer { get; set; }   // many-to-1 with Customer
-        public Bill Bill { get; set; }           // 0..1 with Bill
 
-        // Constructor
+        public Customer Customer { get; set; }  
+        public Bill Bill { get; set; }          
+
         public Notification(int notificationId, int customerId, string message, DateTime dateSent, int? billId = null)
         {
             NotificationId = notificationId;
@@ -29,7 +28,6 @@ namespace KpWaterBillingSystem.src.Model
             BillId = billId;
         }
 
-        // Methods
 
         /// <summary>
         /// Simulates sending the notification (e.g., via email).

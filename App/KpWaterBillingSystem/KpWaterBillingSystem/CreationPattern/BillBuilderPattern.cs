@@ -7,7 +7,7 @@ using KpWaterBillingSystem.src.Model;
 
 namespace KpWaterBillingSystem.CreationPattern
 {
-    // IBillBuilderPattern.cs
+    
     public interface IBillBuilderPattern
     {
         IBillBuilderPattern Reset();
@@ -17,8 +17,6 @@ namespace KpWaterBillingSystem.CreationPattern
         IBillBuilderPattern SetDueDate(DateTime date);
         Bill Build();
     }
-
-    // BillBuilderPattern.cs
     public class BillBuilderPattern : IBillBuilderPattern
     {
         private Bill _bill;
@@ -27,7 +25,7 @@ namespace KpWaterBillingSystem.CreationPattern
 
         public IBillBuilderPattern Reset()
         {
-            _bill = new Bill(0, 0, DateTime.Now, DateTime.Now, new List<WaterReading>());
+            _bill = new Bill(0, 1, DateTime.Now, DateTime.Now, new List<WaterReading>());
             return this;
         }
 
@@ -62,8 +60,6 @@ namespace KpWaterBillingSystem.CreationPattern
             return result;
         }
     }
-
-    // BillingDirectorPattern.cs
     public class BillingDirectorPattern
     {
         private readonly IBillBuilderPattern _builder;

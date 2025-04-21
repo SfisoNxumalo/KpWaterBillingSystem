@@ -9,19 +9,15 @@ namespace KpWaterBillingSystem.src.Model
 {
     public class Admin : Employee
     {
-        // Relationships
         public List<Customer> ManagedCustomers { get; set; }
         public List<Employee> ManagedEmployees { get; set; }
 
-        // Constructor
         public Admin(int adminId, string fullName, string email)
-            : base(adminId, fullName, email)   // Reuse Employee constructor
+            : base(adminId, fullName, email)
         {
             ManagedCustomers = new List<Customer>();
             ManagedEmployees = new List<Employee>();
         }
-
-        // Methods
 
         /// <summary>
         /// Adds a new customer to the system.
@@ -67,7 +63,6 @@ namespace KpWaterBillingSystem.src.Model
         public void ReviewLogs()
         {
             Console.WriteLine($"Admin {FullName} is reviewing system logs...");
-            // Simulated log review logic
         }
     }
 }

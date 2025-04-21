@@ -10,10 +10,9 @@ namespace KpWaterBillingSystem.CreationPattern
 {
     public enum UserType { Employee, Customer }
 
-    // UserSimpleFactoryPattern.cs
-    public static class UserSimpleFactoryPattern
+    public class UserSimpleFactoryPattern
     {
-        public static IUser CreateUser(UserType type, int id, string name, string email, string address = "")
+        public IUser CreateUser(UserType type, int id, string name, string email, string address = "")
         {
             switch (type)
             {

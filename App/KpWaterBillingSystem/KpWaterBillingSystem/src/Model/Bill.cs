@@ -8,7 +8,7 @@ namespace KpWaterBillingSystem.src.Model
 {
     public class Bill
     {
-        // Attributes
+ 
         public int BillId { get; set; }
         public int CustomerId { get; set; }
         public DateTime BillingDate { get; set; }
@@ -16,11 +16,10 @@ namespace KpWaterBillingSystem.src.Model
         public double AmountDue { get; private set; }
         public bool IsPaid { get; private set; }
 
-        // Relationship
-        public Customer Customer { get; set; }        // many-to-1 with Customer
-        public List<WaterReading> Readings { get; set; } // composition: Bill generated from readings
 
-        // Constructor
+        public Customer Customer { get; set; }       
+        public List<WaterReading> Readings { get; set; }
+
         public Bill(int billId, int customerId, DateTime billingDate, DateTime dueDate, List<WaterReading> readings)
         {
             BillId = billId;
@@ -31,8 +30,6 @@ namespace KpWaterBillingSystem.src.Model
             AmountDue = 0;
             IsPaid = false;
         }
-
-        // Methods
 
         /// <summary>
         /// Calculates the total amount due based on consumption and a given rate.

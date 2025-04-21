@@ -7,7 +7,7 @@ using KpWaterBillingSystem.src.Model;
 
 namespace KpWaterBillingSystem.src.Interface
 {
-    // IEmployee.cs
+
     public interface IEmployee
     {
         /// <summary>

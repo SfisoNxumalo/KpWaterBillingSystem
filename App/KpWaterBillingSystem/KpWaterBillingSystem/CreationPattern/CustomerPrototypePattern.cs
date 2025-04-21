@@ -8,8 +8,6 @@ using Microsoft.VisualBasic;
 
 namespace KpWaterBillingSystem.CreationPattern
 {
-    // CustomerPrototypePattern.cs
-
     public class CustomerPrototypePattern : Customer, ICloneable
     {
 
@@ -19,8 +17,6 @@ namespace KpWaterBillingSystem.CreationPattern
 
         public object Clone() => MemberwiseClone();
     }
-
-    // BillPrototypePattern.cs
     public class BillPrototypePattern : Bill, ICloneable
     {
         public BillPrototypePattern(int billId, int customerId, DateTime billingDate, DateTime dueDate, List<WaterReading> readings)
@@ -28,7 +24,6 @@ namespace KpWaterBillingSystem.CreationPattern
 
         public object Clone()
         {
-            // Shallow copy of readings; deep clone if needed
             var clonedReadings = new List<WaterReading>(Readings);
             var clone = new BillPrototypePattern(BillId, CustomerId, BillingDate, DueDate, clonedReadings)
             {
