@@ -115,4 +115,8 @@ The KP Water Billing System automates the process of recording water meter readi
 - Integrate with a database using Entity Framework Core.  
 - Add a REST API layer with ASP.NET Core.  
 
-```
+### Repository Pattern
+
+For the KP Water Billing System, I chose Dependency Injection (DI) over the Factory pattern to keep the system flexible and easier to maintain. With DI, I can easily swap out different repository implementations (like InMemoryDB or SqlDb) without affecting the rest of the code. This helps in adapting to different storage solutions without changing the core logic. I also used generics in the repositories to avoid repeating code for different entity types (like Employee and Customer). This approach keeps things cleaner, ensures type safety, and makes it easier to manage and scale the system as it grows.
+
+- **[Repository Pattern implementation](App/KpWaterBillingSystem/KpWaterBillingSystem/src/Repository/)**
