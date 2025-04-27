@@ -1,6 +1,6 @@
 ﻿using KpWaterBillingSystem.CreationPattern;
-using KpWaterBillingSystem.src.Interface;
 using KpWaterBillingSystem.src.Model;
+using KpWaterBillingSystem.src.Repository.Interface;
 
 namespace KpWaterBillingSystem
 {

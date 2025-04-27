@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KpWaterBillingSystem.src.Interface
+namespace KpWaterBillingSystem.src.Repository.Interface
 {
     public interface IReportBuilder
     {

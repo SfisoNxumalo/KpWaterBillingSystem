@@ -5,31 +5,26 @@ using System.Text;
 using System.Threading.Tasks;
 using KpWaterBillingSystem.src.Repository.Interface;
 
-namespace KpWaterBillingSystem.src.Model
+namespace KpWaterBillingSystem.src.Repository.Storages
 {
-    public class EmployeeReport : IReport
+    public class SqlDb<T> : IGenericRepository<T, int>
     {
-        public void delete(string id)
+        public void delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public List<WaterReport> findAll()
+        public List<T> findAll()
         {
             throw new NotImplementedException();
         }
 
-        public WaterReport findById(string id)
+        public T findById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public string Generate()
-        {
-            return "Employee report generated with usage details and submission stats.";
-        }
-
-        public void save(WaterReport entity)
+        public void save(T entity, int id)
         {
             throw new NotImplementedException();
         }

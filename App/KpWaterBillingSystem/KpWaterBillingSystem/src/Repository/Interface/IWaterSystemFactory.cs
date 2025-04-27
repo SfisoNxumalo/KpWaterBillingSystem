@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KpWaterBillingSystem.src.Interface
+namespace KpWaterBillingSystem.src.Repository.Interface
 {
-    public interface IUserReportFactory
+    public interface IWaterSystemFactory
     {
-        IUser CreateUser(string name, string email);
+        IUser CreateUser();
         IReport CreateReport();
     }
 }

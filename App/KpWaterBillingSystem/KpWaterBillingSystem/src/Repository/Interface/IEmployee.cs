@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using KpWaterBillingSystem.src.Model;
 
-namespace KpWaterBillingSystem.src.Interface
+namespace KpWaterBillingSystem.src.Repository.Interface
 {
 
-    public interface IEmployee
+    public interface IEmployee : IGenericRepository<Employee, string>
     {
         /// <summary>
         /// Submit a water reading on behalf of a customer.

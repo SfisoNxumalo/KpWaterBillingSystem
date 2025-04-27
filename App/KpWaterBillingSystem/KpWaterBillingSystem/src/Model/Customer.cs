@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using KpWaterBillingSystem.src.Interface;
+using KpWaterBillingSystem.src.Repository.Interface;
 
 namespace KpWaterBillingSystem.src.Model
 {
@@ -39,6 +39,26 @@ namespace KpWaterBillingSystem.src.Model
         }
 
         public void DisplayRole()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void save(User entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public User findById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<User> findAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void delete(int id)
         {
             throw new NotImplementedException();
         }

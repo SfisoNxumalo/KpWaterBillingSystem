@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using KpWaterBillingSystem.src.Interface;
 
 namespace KpWaterBillingSystem.src.Model
 {
     using System;
     using System.Collections.Generic;
+    using KpWaterBillingSystem.src.Repository.Interface;
 
     public class Employee : IUser, IEmployee
     {
@@ -51,6 +51,51 @@ namespace KpWaterBillingSystem.src.Model
         public void DisplayEmployeeInfo()
         {
             Console.WriteLine($"Employee Info -> ID: {EmployeeId}, Name: {FullName}, Email: {Email}");
+        }
+
+        public void save(User entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public User findById(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<User> findAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void delete(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void save(Employee entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        Employee IGenericRepository<Employee, string>.findById(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<Employee> IGenericRepository<Employee, string>.findAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public User findById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void delete(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }
