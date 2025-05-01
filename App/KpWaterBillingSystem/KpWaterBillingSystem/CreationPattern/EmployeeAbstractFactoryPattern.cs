@@ -28,9 +28,14 @@ namespace KpWaterBillingSystem.CreationPattern
     }
     public class CustomerAbstractFactoryPattern : IUserReportAbstractFactoryPattern
     {
-        public IEmployee CreateUser(int id, string name, string address, string email)
-            => new Employee(id, name, email);
+        public IReport CreateReport()
+        {
+            throw new NotImplementedException();
+        }
 
-        public IReport CreateReport() => new CustomerReport();
+        public IEmployee CreateUser(int id, string name, string address, string email)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

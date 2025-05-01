@@ -5,38 +5,38 @@ using Microsoft.AspNetCore.Mvc;
 namespace KpManagementSystemAPI.Controllers
 {
     [ApiController]
-    [Route("/UserManagement")]
-    public class UserController : Controller
+    [Route("api/[controller]")]
+    public class EmployeeController : Controller
     {
 
         private readonly StorageService<Employee> _service;
-        public UserController(StorageService<Employee> service)
+        public EmployeeController(StorageService<Employee> service)
         {
             _service = service;
         }
 
-        [HttpPost("/AddEmployee")]
+        [HttpPost("AddEmployee")]
         public IActionResult AddEmployee(Employee employee)
         {
             _service.Add(employee);
             return Ok("Added New Employee");
         }
 
-        [HttpGet("/GetAllEmplyee")]
+        [HttpGet("GetAllEmplyee")]
         public IActionResult GetAllEmployees()
         {
             var reuslt = _service.findAll();
             return Ok(reuslt);
         }
 
-        [HttpGet("/GetEmplyee/{EmployeeId}")]
+        [HttpGet("GetEmplyee/{EmployeeId}")]
         public IActionResult GetEmployee([FromRoute] int EmployeeId)
         {
             var reuslt = _service.findById(EmployeeId);
             return Ok(reuslt);
         }
 
-        [HttpDelete("/DeleteEmployee/{EmployeeId}")]
+        [HttpDelete("DeleteEmployee/{EmployeeId}")]
         public IActionResult DeleteEmployee([FromRoute] int EmployeeId)
         {
             _service.delete(EmployeeId);

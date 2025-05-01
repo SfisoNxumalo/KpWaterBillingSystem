@@ -30,8 +30,8 @@ namespace KpWaterBillingSystem.Tests
             var result = _service.findById(employee.EmployeeId);
 
             // Assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual("Sifiso Mawila", result.Name);
+            Assert.That(result, Is.Not.Null);
+            Assert.That(result.Name, Is.EqualTo("Sifiso Mawila"));
         }
 
         [Test]

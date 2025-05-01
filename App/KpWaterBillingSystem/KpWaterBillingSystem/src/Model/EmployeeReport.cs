@@ -33,5 +33,10 @@ namespace KpWaterBillingSystem.src.Model
         {
             throw new NotImplementedException();
         }
+
+        public void save(WaterReport entity, string id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -7,7 +7,7 @@ using KpWaterBillingSystem.src.Model;
 
 namespace KpWaterBillingSystem.src.Repository.Interface
 {
-    public interface IUser : IGenericRepository<User, int>
+    public interface IUser
     {
         string Name { get; set; }
         string Email { get; set; }

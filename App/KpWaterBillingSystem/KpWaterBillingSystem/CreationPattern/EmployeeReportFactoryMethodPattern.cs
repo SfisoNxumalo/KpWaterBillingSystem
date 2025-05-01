@@ -20,6 +20,9 @@ namespace KpWaterBillingSystem.CreationPattern
 
     public class CustomerReportFactoryMethodPattern : IReportFactoryMethodPattern
     {
-        public IReport CreateReport() => new CustomerReport();
+        public IReport CreateReport()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

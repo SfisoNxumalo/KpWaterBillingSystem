@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sifiso\\KP Management System\\App\\KpWaterBillingSystem\\KpWaterBillingSystem\\KpWaterBillingSystem.csproj": {}
+    "C:\\Users\\Sifiso\\source\\repos\\KP Management System\\App\\KpWaterBillingSystem\\KpWaterBillingSystem\\KpWaterBillingSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sifiso\\KP Management System\\App\\KpWaterBillingSystem\\KpWaterBillingSystem\\KpWaterBillingSystem.csproj": {
+    "C:\\Users\\Sifiso\\source\\repos\\KP Management System\\App\\KpWaterBillingSystem\\KpWaterBillingSystem\\KpWaterBillingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sifiso\\KP Management System\\App\\KpWaterBillingSystem\\KpWaterBillingSystem\\KpWaterBillingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Sifiso\\source\\repos\\KP Management System\\App\\KpWaterBillingSystem\\KpWaterBillingSystem\\KpWaterBillingSystem.csproj",
         "projectName": "KpWaterBillingSystem",
-        "projectPath": "C:\\Users\\Sifiso\\KP Management System\\App\\KpWaterBillingSystem\\KpWaterBillingSystem\\KpWaterBillingSystem.csproj",
+        "projectPath": "C:\\Users\\Sifiso\\source\\repos\\KP Management System\\App\\KpWaterBillingSystem\\KpWaterBillingSystem\\KpWaterBillingSystem.csproj",
         "packagesPath": "C:\\Users\\Sifiso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sifiso\\KP Management System\\App\\KpWaterBillingSystem\\KpWaterBillingSystem\\obj\\",
+        "outputPath": "C:\\Users\\Sifiso\\source\\repos\\KP Management System\\App\\KpWaterBillingSystem\\KpWaterBillingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
