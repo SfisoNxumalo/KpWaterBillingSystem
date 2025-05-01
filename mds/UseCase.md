@@ -2,7 +2,7 @@
 # **4. Use Case Diagram**
 
 #### Use case Diagram made with lucid charts
-![alt text](UseCaseDiagram.png)
+![alt text](/images/UseCaseDiagram.png)
 
 #### Use case Diagram made with mermaid
 ```mermaid

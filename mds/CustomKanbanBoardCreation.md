@@ -1,13 +1,13 @@
 # KP Water Billing System - Kanban Board  
 
 ##### Tasks on Kanban Board
-![alt text](<screenshot1.png>)
+![alt text](/images/screenshot1.png)
 
 ##### Tasks on Kanban Board
-![alt text](<screenshot2.png>)
+![alt text](/images/screenshot2.png)
 
 ##### Task Details
-![alt text](<screenshot3.png>)
+![alt text](/images/screenshot3.png)
 
 ## Customization Choices  
 - **Added "Testing" Column** – To track tasks under quality assurance before deployment.  

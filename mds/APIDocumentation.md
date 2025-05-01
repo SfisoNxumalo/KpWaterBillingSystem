@@ -8,7 +8,7 @@ Created endpoint to handle the functionality of a user to register an employee.
 - GET: `/api/Employee/GetEmplyee/{EmployeeId}`
 - DELETE: `/api/Employee/DeleteEmployee/{EmployeeId}`
 
-![alt text](<swagger_screenshot.png>)
+![alt text](/images/swagger_screenshot.png)
 
 #### Post (Add New Employee)
 This endpoint `(/api/Employee/AddEmployee)` adds a new employee to the database.
@@ -27,7 +27,7 @@ This endpoint `(/api/Employee/AddEmployee)` adds a new employee to the database.
 
 
 ###### Response
-![alt text](image.png)
+![alt text](/images/image.png)
 This will return a message when a user is added successfully
 
 
@@ -39,12 +39,12 @@ This endpoint `(/api/Employee/GetAllEmplyee)` gets all the employees saved in ou
 NONE
 
 ###### Response
-![alt text](image-1.png)
+![alt text](/images/image-1.png)
 This will returns a list of employees
 
 #### Delete (Delete an Employee)
 This endpoint `(/api/Employee/DeleteEmployee/{EmployeeId})` deletes a user with the provided Employee ID 
-![alt text](image-2.png)
+![alt text](/images/image-2.png)
 
 ###### Request body
 NONE
@@ -54,8 +54,8 @@ Employee ID
 
 ###### Response
 This will return a message that the user with the provided Id has been deleted
-![alt text](image-3.png)
+![alt text](/images/image-3.png)
 
 
 ### Changelog
-- **[KP Water Management API Changelog](/Changelog.md)**
+- **[KP Water Management API Changelog](/mds/Changelog.md)**
