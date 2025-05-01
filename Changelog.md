@@ -7,8 +7,6 @@ The current KP Water Billing Management System API provides core CRUD functional
 
 Here’s a clear and concise list of tasks completed for the **KP Water Billing Management System**:
 
----
-
 ### **Completed Tasks – KP Water Billing Management System**
 
 1. **Created `Employee` entity**  
