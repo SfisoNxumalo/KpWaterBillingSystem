@@ -5,6 +5,37 @@ The current KP Water Billing Management System API provides core CRUD functional
 
 ![alt text](image-6.png)
 
+Here’s a clear and concise list of tasks completed for the **KP Water Billing Management System**:
+
+---
+
+### **Completed Tasks – KP Water Billing Management System**
+
+1. **Created `Employee` entity**  
+   - Defined properties: `EmployeeId`, `FullName`, `Email`, and `Name`.
+   - Implemented constructor for initialization.
+
+2. **Created `StorageService<T>` generic repository**  
+   - Handles core CRUD operations for various entities.
+
+3. **Implemented `UserService`**  
+   - Acts as a service layer between the controller and storage.
+   - Provides methods: `save`, `delete`, `findAll`, `findById`.
+
+4. **Wrote unit tests for `UserService` using NUnit and Moq**  
+   - Verified method calls to the underlying `StorageService<Employee>`.
+   - Ensured coverage for save, delete, findAll, and findById operations.
+
+5. **Refactored code for clarity and testability**  
+   - Ensured dependency injection in `UserService`.
+   - Used interfaces and mocking to isolate logic.
+
+6. **Summarized API features and fixes for documentation**  
+   - Highlighted key features, structure, and reliability improvements.
+
+### **Github Issues**
+
 - Closed user stories
 - Fixed the way user stories are titled after software engineering class
 - Moved tickets to testing. 
+- Added new user stories in the backlog

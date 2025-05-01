@@ -55,3 +55,7 @@ Employee ID
 ###### Response
 This will return a message that the user with the provided Id has been deleted
 ![alt text](image-3.png)
+
+
+### Changelog
+- **[KP Water Management API Changelog](/Changelog.md)**
