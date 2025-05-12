@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
 using KpWaterBillingSystem.CreationPattern;
 using KpWaterBillingSystem.src.Model;
-using NUnit.Framework;
 
 namespace KpWaterBillingSystem.Tests
 {

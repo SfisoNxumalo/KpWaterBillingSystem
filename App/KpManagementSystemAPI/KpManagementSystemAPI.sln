@@ -1,9 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KpManagementSystemAPI", "KpManagementSystemAPI\KpManagementSystemAPI.csproj", "{6EA1E955-06C3-4023-801B-A2F4266AD79F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KpManagementSystemAPI.Tests", "KpManagementSystemAPI.Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		KpManagementSystemAPI\Tests\AbstractFactoryPatternTests.cs = KpManagementSystemAPI\Tests\AbstractFactoryPatternTests.cs
+		KpManagementSystemAPI\Tests\BuilderPatternTests.cs = KpManagementSystemAPI\Tests\BuilderPatternTests.cs
+		KpManagementSystemAPI\Tests\FactoryMethodPatternTests.cs = KpManagementSystemAPI\Tests\FactoryMethodPatternTests.cs
+		KpManagementSystemAPI\Tests\PrototypePatternTests.cs = KpManagementSystemAPI\Tests\PrototypePatternTests.cs
+		KpManagementSystemAPI\Tests\SimpleFactoryPatternTests.cs = KpManagementSystemAPI\Tests\SimpleFactoryPatternTests.cs
+		KpManagementSystemAPI\Tests\SingletonPatternTests.cs = KpManagementSystemAPI\Tests\SingletonPatternTests.cs
+		KpManagementSystemAPI\Tests\StorageServiceTests.cs = KpManagementSystemAPI\Tests\StorageServiceTests.cs
+		KpManagementSystemAPI\Tests\Services\UserServiceTests.cs = KpManagementSystemAPI\Tests\Services\UserServiceTests.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Tests", "API.Tests\API.Tests.csproj", "{57533FBE-EDB8-44AC-A86A-E3C8C8DE334F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +29,10 @@ Global
 		{6EA1E955-06C3-4023-801B-A2F4266AD79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EA1E955-06C3-4023-801B-A2F4266AD79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EA1E955-06C3-4023-801B-A2F4266AD79F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57533FBE-EDB8-44AC-A86A-E3C8C8DE334F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57533FBE-EDB8-44AC-A86A-E3C8C8DE334F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57533FBE-EDB8-44AC-A86A-E3C8C8DE334F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57533FBE-EDB8-44AC-A86A-E3C8C8DE334F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
