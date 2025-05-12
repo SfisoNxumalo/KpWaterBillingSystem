@@ -44,7 +44,7 @@ jobs:
 
       - name: Build Release Artifact
         run: |
-          dotnet publish -c Release -o output
+          dotnet publish App/KpManagementSystemAPI/KpManagementSystemAPI.sln -c Release -o output
           zip -r release.zip output/
 
       - name: Upload Release Artifact
