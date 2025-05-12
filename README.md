@@ -52,3 +52,51 @@ For the KP Water Billing System, I chose Dependency Injection (DI) over the Fact
 
 ## API DOCUMENTATION
 - **[KP Water Management API](/mds/APIDocumentation.md)**
+
+
+Here’s an updated section for your `README.md` that covers how to run tests locally and explains how the CI/CD pipeline works:
+
+---
+
+## Running Tests Locally
+
+To run all unit tests locally using **NUnit**, follow these steps:
+
+1. Make sure you have the .NET SDK installed (recommended: .NET 6 or later).
+2. Navigate to the root of the project in your terminal.
+3. Run the following command:
+
+```bash
+dotnet test
+```
+
+This will build the solution and execute all the test cases, including the ones that verify:
+
+* Creational patterns
+* Repository logic (in-memory and SQL-based)
+* Edge cases (e.g. null entities, duplicate IDs, thread-safety for Singleton)
+
+
+
+## CI/CD Pipeline (GitHub Actions)
+
+We use **GitHub Actions** to automate testing and release processes.
+
+### On Every Push/PR
+
+* The workflow runs all unit tests.
+* If any test fails, the PR is blocked from being merged.
+
+### On Protected Branch (main)
+
+* Pull requests must be reviewed.
+* Tests must pass before merging.
+* No one can push directly to main — all changes must go through PRs.
+
+### On Merge to Main
+
+* The pipeline builds the project.
+* Generates a release artifact (e.g. ZIP, JAR, or published DLLs).
+* Uploads the artifact for download in the GitHub Actions tab.
+
+![alt text](image.png)
