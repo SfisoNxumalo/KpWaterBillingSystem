@@ -100,3 +100,7 @@ We use **GitHub Actions** to automate testing and release processes.
 * Uploads the artifact for download in the GitHub Actions tab.
 
 ![alt text](image.png)
+
+
+## Failed PR 
+![alt text](image-1.png)
