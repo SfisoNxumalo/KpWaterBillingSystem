@@ -21,13 +21,13 @@ jobs:
           dotnet-version: '8.x' # Adjust to match your project version
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore App/KpManagementSystemAPI/KpManagementSystemAPI.sln
 
       - name: Build
-        run: dotnet build --no-restore --configuration Release
+        run: dotnet build App/KpManagementSystemAPI/KpManagementSystemAPI.sln --no-restore --configuration Release
 
       - name: Run Tests
-        run: dotnet test --no-build --configuration Release --logger trx
+        run: dotnet test App/KpManagementSystemAPI/KpManagementSystemAPI.sln --no-build --configuration Release --logger trx
 
   release-artifact:
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
