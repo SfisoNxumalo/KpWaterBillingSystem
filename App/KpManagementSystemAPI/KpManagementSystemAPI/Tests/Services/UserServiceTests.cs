@@ -54,7 +54,7 @@ namespace KpWaterBillingSystem.Tests.Services
 
             var result = _userService.findAll();
 
-            Assert.That(result, Is.EqualTo(employees));
+            Assert.That(result, Is.EqualTo(employees[1]));
         }
 
         [Test]
