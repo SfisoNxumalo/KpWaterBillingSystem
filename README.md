@@ -49,9 +49,28 @@ For the KP Water Billing System, I chose Dependency Injection (DI) over the Fact
 
 - **[Repository Pattern implementation](App/KpWaterBillingSystem/KpWaterBillingSystem/src/Repository/)**
 
+## Getting Started
 
-## API DOCUMENTATION
+1. Clone the project
+2. Run `dotnet restore`
+3. Build the solution with `dotnet build`
+4. Run tests using `dotnet test`
+
+## 🛠️ Features for Contribution
+
+
+| Feature                        | Status | Type            |
+|-------------------------------|--------|-----------------|
+| Redis Caching                 | ⏳      | Feature Request |
+| Logging                       | ⏳      | Feature Request |
+| CI/CD with GitHub Actions     | ✅      | Enhancement     |
+| Add Customer Unit Tests       | ⏳      | Good First Issue |
+| Improve Documentation         | ⏳      | Good First Issue |
+
+#### API DOCUMENTATION
 - **[KP Water Management API](/mds/APIDocumentation.md)**
+
+- **[Roadmap](/mds/Roadmap.md)**
 
 ## Running Tests Locally
 
@@ -75,6 +94,9 @@ This will build the solution and execute all the test cases, including the ones 
 
 ## CI/CD Pipeline (GitHub Actions)
 
+- **[Protection](mds/Protection.md)**
+
+
 We use **GitHub Actions** to automate testing and release processes.
 
 ### On Every Push/PR
@@ -88,6 +110,7 @@ We use **GitHub Actions** to automate testing and release processes.
 * Tests must pass before merging.
 * No one can push directly to main — all changes must go through PRs.
 
+
 ### On Merge to Main
 
 * The pipeline builds the project.
@@ -95,3 +118,8 @@ We use **GitHub Actions** to automate testing and release processes.
 * Uploads the artifact for download in the GitHub Actions tab.
 
 ![alt text](image.png)
+
+
+## Failed PR 
+![alt text](image-1.png)
+
