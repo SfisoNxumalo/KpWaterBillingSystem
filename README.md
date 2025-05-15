@@ -58,6 +58,7 @@ For the KP Water Billing System, I chose Dependency Injection (DI) over the Fact
 
 ## 🛠️ Features for Contribution
 
+
 | Feature                        | Status | Type            |
 |-------------------------------|--------|-----------------|
 | Redis Caching                 | ⏳      | Feature Request |
@@ -70,7 +71,6 @@ For the KP Water Billing System, I chose Dependency Injection (DI) over the Fact
 - **[KP Water Management API](/mds/APIDocumentation.md)**
 
 - **[Roadmap](/mds/Roadmap.md)**
-
 
 ## Running Tests Locally
 
@@ -122,3 +122,4 @@ We use **GitHub Actions** to automate testing and release processes.
 
 ## Failed PR 
 ![alt text](image-1.png)
+
