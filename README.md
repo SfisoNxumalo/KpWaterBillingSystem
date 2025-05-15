@@ -49,14 +49,28 @@ For the KP Water Billing System, I chose Dependency Injection (DI) over the Fact
 
 - **[Repository Pattern implementation](App/KpWaterBillingSystem/KpWaterBillingSystem/src/Repository/)**
 
+## Getting Started
 
-## API DOCUMENTATION
+1. Clone the project
+2. Run `dotnet restore`
+3. Build the solution with `dotnet build`
+4. Run tests using `dotnet test`
+
+## 🛠️ Features for Contribution
+
+| Feature                        | Status | Type            |
+|-------------------------------|--------|-----------------|
+| Redis Caching                 | ⏳      | Feature Request |
+| Logging                       | ⏳      | Feature Request |
+| CI/CD with GitHub Actions     | ✅      | Enhancement     |
+| Add Customer Unit Tests       | ⏳      | Good First Issue |
+| Improve Documentation         | ⏳      | Good First Issue |
+
+#### API DOCUMENTATION
 - **[KP Water Management API](/mds/APIDocumentation.md)**
 
+- **[Roadmap](/mds/Roadmap.md)**
 
-Here’s an updated section for your `README.md` that covers how to run tests locally and explains how the CI/CD pipeline works:
-
----
 
 ## Running Tests Locally
 
