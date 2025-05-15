@@ -53,11 +53,6 @@ For the KP Water Billing System, I chose Dependency Injection (DI) over the Fact
 ## API DOCUMENTATION
 - **[KP Water Management API](/mds/APIDocumentation.md)**
 
-
-Here’s an updated section for your `README.md` that covers how to run tests locally and explains how the CI/CD pipeline works:
-
----
-
 ## Running Tests Locally
 
 To run all unit tests locally using **NUnit**, follow these steps:
