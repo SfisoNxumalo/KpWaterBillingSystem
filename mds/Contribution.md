@@ -1,7 +1,7 @@
 
 # Contributing
 
-Thank you for your interest in contributing to the KP Water Billing System!
+Thank you for your interest in contributing to the KP Water Billing System! Don't worry I will take you through it step-by-step, as well as provide you with guidance even if you do not know anything about programming.
 
 ## Prerequisites
 - [.NET SDK](https://dotnet.microsoft.com/en-us/download) installed
