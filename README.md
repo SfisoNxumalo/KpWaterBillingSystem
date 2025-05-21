@@ -56,16 +56,17 @@ For the KP Water Billing System, I chose Dependency Injection (DI) over the Fact
 3. Build the solution with `dotnet build`
 4. Run tests using `dotnet test`
 
-## 🛠️ Features for Contribution
+## Features for Contribution
 
+- **[Contribution](./mds/Contribution.md)**
 
-| Feature                        | Status | Type            |
-|-------------------------------|--------|-----------------|
-| Redis Caching                 | ⏳      | Feature Request |
-| Logging                       | ⏳      | Feature Request |
-| CI/CD with GitHub Actions     | ✅      | Enhancement     |
-| Add Customer Unit Tests       | ⏳      | Good First Issue |
-| Improve Documentation         | ⏳      | Good First Issue |
+| Feature                       | Status  | Type             |
+|-------------------------------|---------|------------------|
+| Redis Caching                 | pending | Feature Request  |
+| Logging                       | pending | Feature Request  |
+| CI/CD with GitHub Actions     | pending | Enhancement      |
+| Add Customer Unit Tests       | pending | Good First Issue |
+| Improve Documentation         | pending | Good First Issue |
 
 #### API DOCUMENTATION
 - **[KP Water Management API](/mds/APIDocumentation.md)**
